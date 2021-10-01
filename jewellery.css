@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+
+:root {
+  --primary: #fc5404;
+  --secondary: #eee;
+  --dark: #323232;
+  --bg: #202040;
+}
+
+body {
+  background: var(--bg);
+}
+
+@media (max-height: 600px) {
+  header {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--secondary);
+  }
+}
+
+#header-img {
+  width: 100px;
+}
+
+header ul {
+  display: flex;
+  jutsify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: #888;
+  text-decoration: none;
+}
+
+header ul li {
+  list-style-type: none;
+  margin: 1rem;
+  font-size: 18px;
+  font-family: "Josefin Sans", Arial;
+  cursor: pointer;
+}
+
+header .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  margin: 1rem;
+  background: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Josefin Sans", Arial;
+}
+
+.btn-tertiary {
+  background: var(--primary);
+}
+
+.btn-primary:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.btn-secondary:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.btn-tertiary:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  transform: translate(-50%, -50%;);
+}
+
+h2 {
+  font-size: 3rem;
+  color: #fff;
+  font-family: "Abel";
+}
+
+img {
+  size: 10px;
+}
+
+.catalog {
+  border-radius: 25px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Josefin Sans", Arial;
+  margin: 1rem;
+  background: var(--primary);
+}
+
+.catalog:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+#BLOG p {
+  color: #fff;
+  font-family: "Josefin Sans", Arial;
+}
+
+h4 {
+  color: #888;
+  font-size: 2rem;
+  font-family: "abel";
+}
+
+#name,
+#email,
+#submit {
+  margin-right: 2%;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+}
+
+#submit {
+  background: var(--primary);
+}
+
+#submit:hover:hover {
+  background: var(--secondary);
+  color: var(--primary);
+}
+
+.offer {
+  font-family: "Antic slab";
+  color: #000;
+  text-align: center;
+  font-size: 25px;
+}
+
+P {
+  color: #000;
+  font-family: "Josefin Sans", Arial;
+}
+.footer {
+  margin: auto;
+  overflow: hidden;
+  background-color: transparent;
+  padding: 20px 10px;
+  border-top: 2px solid #d2d2d7;
+  width: 100%;
+}
+
+.footer {
+  word-spacing: 20px;
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
